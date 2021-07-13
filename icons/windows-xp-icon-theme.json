@@ -78,7 +78,7 @@
 		"_folder_files": {
 			"iconPath": "./images/folder-files.png"
 		},
-		"_folder_nertwork": {
+		"_folder_network": {
 			"iconPath": "./images/folder-network.png"
 		},
 		"_folder_open": {
@@ -167,6 +167,7 @@
 		"yarn.lock": "_lock",
 		".editorconfig": "_cogs",
 		".gitignore": "_cogs",
+		".gitattributes": "_cogs",
 		"package.json": "_file_cfg",
 	},
 	"folderNames": {
