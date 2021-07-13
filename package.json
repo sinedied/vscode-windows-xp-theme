@@ -1,61 +1,65 @@
 {
-    "name": "vscode-windows-xp-theme",
-    "displayName": "Windows XP",
-    "description": "Windows XP theme for VS Code",
-    "preview": true,
-    "publisher": "sinedied",
-    "version": "0.1.0",
-    "license": "MIT",
-    "icon": "icon.png",
-    "galleryBanner": {
-        "color": "#1865cd",
-        "theme": "light"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sinedied/vscode-windows-xp-theme"
-    },
-    "homepage": "https://github.com/sinedied/vscode-windows-xp-theme/blob/main/README.md",
-    "bugs": {
-        "url": "https://github.com/sinedied/vscode-windows-xp-theme/issues"
-    },
-    "engines": {
-        "vscode": "^1.57.0"
-    },
-    "scripts": {
-        "package": "npx vsce package",
-        "release": "npx vsce publish"
-    },
-    "keywords": [
-        "vscode",
-        "theme",
-        "windows",
-        "xp",
-        "light",
-        "classic",
-        "luna",
-        "icons",
-        "icon-theme",
-        "customization"
+  "name": "vscode-windows-xp-theme",
+  "displayName": "Windows XP",
+  "description": "Windows XP theme for VS Code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinedied/vscode-windows-xp-theme"
+  },
+  "author": {
+		"name": "Yohan Lasorsa",
+		"url": "https://twitter.com/sinedied"
+	},
+  "homepage": "https://github.com/sinedied/vscode-windows-xp-theme/",
+  "bugs": {
+    "url": "https://github.com/sinedied/vscode-windows-xp-theme/issues"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "publisher": "sinedied",
+  "preview": true,
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1865cd",
+    "theme": "light"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "engines": {
+    "vscode": "^1.6.0"
+  },
+  "scripts": {
+    "package": "npx vsce package",
+    "release": "npx vsce publish"
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "windows",
+    "xp",
+    "light",
+    "classic",
+    "luna",
+    "icons",
+    "icon-theme",
+    "customization"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "windows-xp",
+        "label": "Windows XP - Luna (Light)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/windows-xp-color-theme.json"
+      }
     ],
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "id": "windows-xp",
-                "label": "Windows XP - Luna (Light)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/windows-xp-color-theme.json"
-            }
-        ],
-        "iconThemes": [
-            {
-                "id": "windows-xp-icons",
-                "label": "Windows XP Icons",
-                "path": "./icons/windows-xp-icon-theme.json"
-            }
-        ]
-    }
+    "iconThemes": [
+      {
+        "id": "windows-xp-icons",
+        "label": "Windows XP Icons",
+        "path": "./icons/windows-xp-icon-theme.json"
+      }
+    ]
+  }
 }
