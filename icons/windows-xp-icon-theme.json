@@ -1,0 +1,182 @@
+{
+  "iconDefinitions": {
+		"_cli": {
+			"iconPath": "./images/cli.png"
+		},
+		"_cogs": {
+			"iconPath": "./images/cogs.png"
+		},
+		"_computer": {
+			"iconPath": "./images/computer.png"
+		},
+		"_file_audio": {
+			"iconPath": "./images/file-audio.png"
+		},
+		"_file_bin": {
+			"iconPath": "./images/file-bin.png"
+		},
+		"_file_cfg": {
+			"iconPath": "./images/file-cfg.png"
+		},
+		"_file_dll": {
+			"iconPath": "./images/file-dll.png"
+		},
+		"_file_dll_blue": {
+			"iconPath": "./images/file-dll-blue.png"
+		},
+		"_file_font": {
+			"iconPath": "./images/file-font.png"
+		},
+		"_file_html": {
+			"iconPath": "./images/file-html.png"
+		},
+		"_file_jpg": {
+			"iconPath": "./images/file-jpg.png"
+		},
+		"_file_opentype": {
+			"iconPath": "./images/file-opentype.png"
+		},
+		"_file_png": {
+			"iconPath": "./images/file-png.png"
+		},
+		"_file_notepad": {
+			"iconPath": "./images/file-notepad.png"
+		},
+		"_file_search": {
+			"iconPath": "./images/file-search.png"
+		},
+		"_file_script": {
+			"iconPath": "./images/file-script.png"
+		},
+		"_file_svg": {
+			"iconPath": "./images/file-svg.png"
+		},
+		"_file_time": {
+			"iconPath": "./images/file-time.png"
+		},
+		"_file_text": {
+			"iconPath": "./images/file-text.png"
+		},
+		"_file_truetype": {
+			"iconPath": "./images/file-truetype.png"
+		},
+		"_file_video": {
+			"iconPath": "./images/file-video.png"
+		},
+		"_file_web": {
+			"iconPath": "./images/file-web.png"
+		},
+		"_file": {
+			"iconPath": "./images/file.png"
+		},
+		"_folder": {
+			"iconPath": "./images/folder-closed.png"
+		},
+		"_folder_apps": {
+			"iconPath": "./images/folder-apps.png"
+		},
+		"_folder_files": {
+			"iconPath": "./images/folder-files.png"
+		},
+		"_folder_nertwork": {
+			"iconPath": "./images/folder-network.png"
+		},
+		"_folder_open": {
+			"iconPath": "./images/folder-open.png"
+		},
+		"_folder_open_transparent": {
+			"iconPath": "./images/folder-open-transparent.png"
+		},
+		"_lock": {
+			"iconPath": "./images/lock.png"
+		},
+		"_keys": {
+			"iconPath": "./images/keys.png"
+		},
+	},
+	"rootFolder": "_computer",
+	"rootFolderExpanded": "_computer",
+	"folder": "_folder",
+  "folderExpanded": "_folder_open",
+	"file": "_file",
+  "fileExtensions": {
+		"jpg": "_file_jpg",
+		"jpeg": "_file_jpg",
+		"jpe": "_file_jpg",
+		"jif": "_file_jpg",
+		"jfif": "_file_jpg",
+		"jfi": "_file_jpg",
+		"png": "_file_png",
+		"gif": "_file_video",
+		"tiff": "_file_jpg",
+		"tif": "_file_jpg",
+		"bmp": "_file_png",
+		"webp": "_file_jpg",
+		"jp2": "_file_jpg",
+		"j2k": "_file_jpg",
+		"jpf": "_file_jpg",
+		"jpx": "_file_jpg",
+		"jpm": "_file_jpg",
+		"mj2": "_file_jpg",
+		"svg": "_file_svg",
+		"svgz": "_file_svg",
+		"ico": "_file_svg",
+		"xml": "_file",
+		"yml": "_file",
+		"tml": "_file",
+		"xhtml": "_file_html",
+		"html": "_file_html",
+		"css": "_file_web",
+		"htm": "_file_html",
+		"txt": "_file_text",
+		"md": "_file_text",
+		"js": "_file_dll",
+		"jsx": "_file_dll",
+		"vue": "_file_dll",
+		"json": "_file_search",
+		"ts": "_file_dll_blue",
+		"tsx": "_file_dll_blue",
+		"sh": "_cli",
+		"bash": "_cli",
+		"bat": "_file_script",
+		"ps1": "_file_script",
+		"mp3": "_file_audio",
+		"mp4": "_file_video",
+		"wav": "_file_audio",
+		"aif": "_file_audio",
+		"aiff": "_file_audio",
+		"ogg": "_file_audio",
+		"otf": "_file_opentype",
+		"ttf": "_file_truetype",
+		"eot": "_file_font",
+		"woff": "_file_font",
+		"woff2": "_file_font",
+		"ini": "_file_cfg",
+		"exe": "_file_bin",
+		"bin": "_file_bin",
+		"app": "_file_bin",
+	},
+	"fileNames": {
+		"cname": "_file_text",
+		"license": "_keys",
+		"readme": "_file_notepad",
+		"readme.md": "_file_notepad",
+		"changelog": "_file_time",
+		"changelog.md": "_file_time",
+		"package-lock.json": "_lock",
+		"yarn.lock": "_lock",
+		".editorconfig": "_cogs",
+		".gitignore": "_cogs",
+		"package.json": "_file_cfg",
+	},
+	"folderNames": {
+		"node_modules": "_folder_apps",
+		"public": "_folder_files",
+		"dist": "_folder_network",
+		"build": "_folder_network",
+		".temp": "_folder_open_transparent",
+		".tmp": "_folder_open_transparent",
+		".vscode": "_folder_open_transparent",
+		".github": "_folder_open_transparent",
+	}
+}
