@@ -50,7 +50,7 @@
       {
         "id": "windows-xp",
         "label": "Windows XP - Luna (Light)",
-        "uiTheme": "vs-dark",
+        "uiTheme": "vs",
         "path": "./themes/windows-xp-color-theme.json"
       }
     ],
