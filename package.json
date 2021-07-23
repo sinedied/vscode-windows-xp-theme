@@ -20,7 +20,7 @@
   "preview": true,
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#1865cd",
+    "color": "#f0eee4",
     "theme": "light"
   },
   "categories": [
@@ -49,7 +49,7 @@
     "themes": [
       {
         "id": "windows-xp",
-        "label": "Windows XP - Luna (Light)",
+        "label": "Windows XP Luna (Light)",
         "uiTheme": "vs",
         "path": "./themes/windows-xp-color-theme.json"
       }
