@@ -6,6 +6,8 @@
   <img alt="" src="https://raw.githubusercontent.com/sinedied/vscode-windows-xp-theme/main/preview.jpg"/>
 </p>
 
+[Test it online!](https://vscode.dev/theme/sinedied.vscode-windows-xp-theme)
+
 ## Install
 
 ### From VS Marketplace
