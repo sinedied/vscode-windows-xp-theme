@@ -27,7 +27,7 @@
     "Themes"
   ],
   "engines": {
-    "vscode": "^1.6.0"
+    "vscode": "^1.17.0"
   },
   "scripts": {
     "package": "npx vsce package",
