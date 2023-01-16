@@ -619,9 +619,9 @@
     "breadcrumb.foreground": "#555",
     "breadcrumb.focusForeground": "#000",
     // Scrollbar
-    "scrollbarSlider.background": "#c1d3fb",
-    "scrollbarSlider.hoverBackground": "#d6e7ff",
-    "scrollbarSlider.activeBackground": "#a1bcfa",
+    "scrollbarSlider.background": "#c1d3fbb0",
+    "scrollbarSlider.hoverBackground": "#a1bcfab0",
+    "scrollbarSlider.activeBackground": "#7fa2fab0",
     // Widgets
     "widget.shadow": "#00000015",
     "editorWidget.background": "#ece9d8",
