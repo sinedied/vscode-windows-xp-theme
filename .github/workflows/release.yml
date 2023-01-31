@@ -17,10 +17,10 @@ jobs:
         with:
           node-version: 14
       - name: Install dependencies
-        run: npm i -g vsce
+        run: npm i -g @vscode/vsce
         env:
           CI: true
-      - run: npm run publish
+      - run: npm run release
         if: success()
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
