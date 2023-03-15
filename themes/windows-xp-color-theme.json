@@ -128,7 +128,8 @@
     },
     {
       "scope": [
-        "variable"
+        "variable",
+        "support.variable"
       ],
       "settings": {
         "foreground": "#e36209"
@@ -259,15 +260,6 @@
         "foreground": "#005cc5"
       },
       "name": "Support.constant"
-    },
-    {
-      "scope": [
-        "support.variable"
-      ],
-      "settings": {
-        "foreground": "#005cc5"
-      },
-      "name": "Support.variable"
     },
     {
       "scope": [
